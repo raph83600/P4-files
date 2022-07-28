@@ -271,7 +271,10 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-
+.row {
+    display: flex;
+    justify-content: center;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -505,6 +508,16 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -647,6 +660,7 @@ h5,
 h6,
 p,
 label,
+textarea
 .btn,
 a {
     font-family: "helvetica";
@@ -673,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
